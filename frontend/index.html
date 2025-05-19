@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starlight Cinema - Open Air Movie Experience</title>
+    <link rel="stylesheet" href="styles/root.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Stars Background -->
+    <div class="stars" id="stars"></div>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="logo">
+        <img
+          src="https://img.icons8.com/color/96/000000/film-reel.png"
+          alt="Starlight Cinema Logo"
+        />
+        <span class="logo-text">Starlight Cinema</span>
+      </div>
+
+      <nav>
+        <ul id="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#experience">Our Experience</a></li>
+          <li><a href="#movies">Movies</a></li>
+          <li><a href="#food">Food & Drinks</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="contact-btn" id="header-contact-btn">Book Tickets</button>
+
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Movies Under the Stars</h1>
+        <p>
+          Starlight Cinema offers a magical open-air movie experience with premium 
+          seating, gourmet snacks, and the clearest outdoor projection. Enjoy your 
+          favorite films beneath the night sky in our comfortable outdoor theater.
+        </p>
+        <div class="hero-btns">
+          <button class="primary-btn" id="explore-movies-btn">
+            Current Screenings
+          </button>
+          <button class="secondary-btn" id="book-tickets-btn">
+            Book Tickets
+          </button>
+        </div>
+      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        alt="Open Air Cinema"
+        class="hero-image"
+      />
+
+      <img
+        src="https://img.icons8.com/color/96/000000/film-reel.png"
+        alt="Film Reel"
+        class="floating-film-reel"
+      />
+    </section>
+
+    <!-- Experience Section -->
+    <section class="place-review" id="experience">
+      <div class="section-title">
+        <h2>Our Outdoor Theater</h2>
+      </div>
+
+      <div class="review-content">
+        <div class="review-text">
+          <h3>Where Cinema Meets Nature</h3>
+          <p>
+            Step into our open-air movie paradise where every detail is designed 
+            to enhance your outdoor viewing experience. From the moment you arrive, 
+            you'll be surrounded by comfortable seating, perfect sightlines, and 
+            state-of-the-art audio under the stars.
+          </p>
+          <p>
+            Our venue is more than just a movie screening - it's a complete evening 
+            experience. Whether you're a film buff or just looking for a unique night 
+            out, Starlight Cinema offers an unforgettable entertainment experience.
+          </p>
+
+          <div class="review-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-star"></i>
+              <h4>Premium Seating</h4>
+              <p>Comfortable lounge chairs and cozy blankets provided</p>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-utensils"></i>
+              <h4>Gourmet Snacks</h4>
+              <p>Artisanal food and craft beverages available</p>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-volume-up"></i>
+              <h4>Perfect Audio</h4>
+              <p>Crystal clear wireless headphones for personal listening</p>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-moon"></i>
+              <h4>Starlit Screenings</h4>
+              <p>Movies begin at dusk for optimal viewing conditions</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-image">
+          <img
+            src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            alt="Starlight Cinema Seating"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section class="menu" id="movies">
+      <div class="section-title">
+        <h2>Current Screenings</h2>
+      </div>
+
+      <div class="menu-categories">
+        <button class="category-btn active" data-category="all">All</button>
+        <button class="category-btn" data-category="new">New Releases</button>
+        <button class="category-btn" data-category="classics">Classics</button>
+        <button class="category-btn" data-category="family">Family</button>
+        <button class="category-btn" data-category="romance">Romance</button>
+      </div>
+
+      <div class="menu-items"></div>
+    </section>
+
+    <!-- Food Section -->
+    <section class="vr-section" id="food">
+      <div class="section-title">
+        <h2>Concession Stand</h2>
+      </div>
+
+      <div class="vr-container">
+        <div class="vr-content">
+          <h3>Gourmet Snacks & Drinks</h3>
+          <p>
+            At Starlight Cinema, we've elevated the traditional movie snack experience. 
+            Our concession stand features locally-sourced gourmet treats, craft cocktails, 
+            and specialty beverages to enjoy during your film.
+          </p>
+          <p>
+            Choose from our carefully curated selection of cinema snacks, each designed 
+            to complement your movie-watching experience. Sip on our signature "Starry 
+            Night Cocktail" while enjoying a classic film, or try our "Director's Cut" 
+            charcuterie board with your favorite drama.
+          </p>
+
+          <div class="vr-features">
+            <div class="vr-feature">
+              <i class="fas fa-wine-glass-alt"></i>
+              <div class="vr-feature-text">
+                <h4>Craft Beverages</h4>
+                <p>
+                  Local beers, fine wines, and signature cocktails available
+                </p>
+              </div>
+            </div>
+            <div class="vr-feature">
+              <i class="fas fa-cheese"></i>
+              <div class="vr-feature-text">
+                <h4>Gourmet Snacks</h4>
+                <p>
+                  Artisanal popcorn flavors, charcuterie boards, and more
+                </p>
+              </div>
+            </div>
+            <div class="vr-feature">
+              <i class="fas fa-leaf"></i>
+              <div class="vr-feature-text">
+                <h4>Vegetarian Options</h4>
+                <p>Plenty of plant-based and gluten-free choices</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="vr-image">
+          <img
+            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            alt="Gourmet Cinema Food"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+      <div class="section-title">
+        <h2>Customer Reviews</h2>
+      </div>
+
+      <div class="reviews-container"></div>
+    </section>
+
+    <section class="form-section" id="contact">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+      </div>
+
+      <div class="form-container">
+        <div class="form-content">
+          <h3>Ready for Movie Magic?</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" name="date" />
+            </div>
+            <div class="form-group">
+              <label for="guests">Number of Guests</label>
+              <select id="guests" name="guests">
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3-4">3-4 People</option>
+                <option value="5-6">5-6 People</option>
+                <option value="7+">7+ People</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Special Requests</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Book Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Starlight Cinema</h3>
+          <p>
+            Experience the magic of movies under the stars. Our unique open-air 
+            theater offers premium screenings with gourmet food and drinks in 
+            a beautiful outdoor setting.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <a href="#home">Home</a>
+          <a href="#experience">Our Experience</a>
+          <a href="#movies">Movies</a>
+          <a href="#food">Food & Drinks</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Contact Info</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Moonlight Drive, Riverside Park, CT 90210
+          </p>
+          <p><i class="fas fa-phone"></i> (555) 987-6543</p>
+          <p><i class="fas fa-envelope"></i> info@starlightcinema.com</p>
+          <p>
+            <i class="fas fa-clock"></i> Open daily from 6:00 PM to midnight
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Newsletter</h3>
+          <p>
+            Subscribe to our newsletter for movie updates, special screenings, 
+            and exclusive offers!
+          </p>
+          <form id="newsletter-form">
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <button type="submit" class="submit-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2023 Starlight Cinema. All rights reserved. | Designed with
+          <i class="fas fa-heart" style="color: var(--cosmic-pink)"></i> for
+          film lovers
+        </p>
+      </div>
+    </footer>
+
+    <div class="fixed-contact" id="fixed-contact">
+      <i class="fas fa-comment-alt"></i>
+      <span>Contact Us</span>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("l31_1TGBGw6IeThJb");
+      })();
+    </script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/reviews.js" defers></script>
+    <script src="scripts/forms.js" defer></script>
+  </body>
+</html>
